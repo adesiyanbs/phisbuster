@@ -3,127 +3,124 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Phisbuster</title>
+    
+    <!-- style sheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li>About</li>
-            <li><a href="">Resources</a>
-                <ul class="dropdown">
-                    <li><a href="#">Phising text</a></li>
-                    <li><a href="#">Phising Pic</a></li>
-                    <li><a href="#">Phising others</a></li>
-                </ul>
-            </li>
-        </ul>
-    </nav>
-    <section class="top">
-        <div class="top_container">
-            <div class="phis_ctn">
-                <h1>.phisbuster</h1>
-                <div class="phis_sch">
-                    <label>URL</label>
-                    <input type="text" placeholder="Enter any url link">
-                </div>
-                <button class="btn-top">Confirm</button>
+    <div class="container">
+
+       <nav class="navbar navbar-light bg-light">
+        <div class="container">
+           <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav float-right">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Resources
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                    <li><a class="dropdown-item" href="#">Phishing Text</a></li>
+                    <li><a class="dropdown-item" href="#">Phishing pic</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Phishing Others</a></li>
+                  </ul>
+                </li>
+              </ul>
             </div>
-        </div>
-    </section>
-
-    <section id="middle" class="middle">
-        <div>
-            <h4 id="show_text" class="show_text">What is phising all about</h4>
-            <p id="display" class="display">
-                <span class="close" id="close">&times;</span>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Officiis reprehenderit nostrum,
-                facere asperiores praesentium ipsam quo pariatur necessitatibus enim vel incidunt omnis optio fugiat
-                ipsum repellendus, quod soluta neque distinctio, voluptatem modi atque totam! Corrupti id culpa dolorem
-                eum atque?
-            </p>
-        </div>
-        <div>
-            <h4 id="show_text2" class="show_text">Phising Techniques</h4>
-            <p id="display2" class="display">
-                <span class="close" id="close2">&times;</span>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Officiis reprehenderit nostrum,
-                facere asperiores praesentium ipsam quo pariatur necessitatibus enim vel incidunt omnis optio fugiat
-                ipsum repellendus, quod soluta neque distinctio, voluptatem modi atque totam! Corrupti id culpa dolorem
-                eum atque?
-            </p>
-        </div>
-        <div>
-            <h4 id="show_text3" class="show_text">Phising Images</h4>
-            <div id="display3" class="display">
-                <span class="close" id="close3">&times;</span>
-
-                <div id="img_dis" class="img_dis ">
-
-                    <div class="img"></div>
-                    <div class="img"></div>
-                    <div class="img"></div>
-                </div>
+         </div>
+        </nav>
+<!--    End of Top Bar      -->
+        
+        
+<!--    Navigation Bar  -->
+        <nav class="navbar sticky-top navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+              <img src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24">
+            </a>
+           <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+<!--                 <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li> -->
+                <li class="nav-item">
+                  <a class="nav-link" href="#">What is Phishing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Types of Phishing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Phishing Techniques</a>
+                </li>
+              </ul>
             </div>
-
+         </div>
+        </nav>
+        
+    </div>
+    
+<!--   End of Navigation Bar Section    -->
+    
+<!--   Slider Section   -->
+    
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+<!--         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button> -->
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="..." class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Section label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
         </div>
-        <div>
-            <h4 id="show_text4" class="show_text">Use case scenarios of phising</h4>
-            <div id="display4" class="display">
-                <span class="close" id="close4">&times;</span>
-                <div id="usecase" class="use_case">
-                    <div id="case1" class="case">1</div>
-                    <div id="simplemodal" class="modal">
-                        <div class="modal-cnt">
-                            <span id="closebtn" class="closebtn">&times;</span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum dolorem veniam dicta
-                                provident? Quidem necessitatibus commodi laborum quaerat! Inventore, illo.</p>
-                        </div>
-                    </div>
-                    <div id="case2" class="case">2</div>
-                    <div id="simplemodal2" class="modal">
-                        <div class="modal-cnt">
-                            <span id="closebtn2" class="closebtn">&times;</span>
-                            <p>this is use case 2</p>
-                        </div>
-                    </div>
-                    <div id="case3" class="case">3</div>
-                    <div id="simplemodal3" class="modal">
-                        <div class="modal-cnt">
-                            <span id="closebtn3" class="closebtn">&times;</span>
-                            <p>Hello.... i am a modal</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<!--         <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
         </div>
-        <div>
-            <h4 id="show_text5" class="show_text">Tips to Prevent Phising attacks</h4>
-            <p id="display5" class="display"><span class="close" id="close5">&times;</span>Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Officiis reprehenderit nostrum,
-                facere asperiores praesentium ipsam quo pariatur necessitatibus enim vel incidunt omnis optio fugiat
-                ipsum repellendus, quod soluta neque distinctio, voluptatem modi atque totam! Corrupti id culpa dolorem
-                eum atque?
-            </p>
-        </div>
-    </section>
-
-    <section class="video">
-        <div class="vid_container">
-
-        </div>
-        <div class="footer">
-            <div class="gog">
-                <img class="google" src="google.png" alt="">
-            </div>
-            <button class="foot">Take a phising test by Google</button>
-        </div>
-    </section>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div> -->
+      </div>
+<!--       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button> -->
+    </div>
+    
+<!--   End of Slider Section   -->
+    
+    
+    
+    
 
 </body>
-<script src="main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    
+    <!-- <script src="main.js"></script> -->
 
 </html>
